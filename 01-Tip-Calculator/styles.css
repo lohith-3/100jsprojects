@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #e9ecef;
+  font-family: "Poppins", sans-serif;
+}
+
+.tip__calculator__container {
+  background-color: #fff;
+  padding: 1rem;
+  max-width: 600px;
+  margin: 100px auto;
+  border-radius: 5px;
+}
+
+.tip__calculator__container h1 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+form {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+button {
+  /* removing default behaviour */
+  appearance: none;
+  -webkit-appearance: none;
+
+  /* styles */
+  padding: 10px;
+  border: none;
+  background-color: #40c057;
+  color: #fff;
+  font-family: inherit;
+  font-weight: 600;
+  border-radius: 5px;
+  margin: 1rem 0;
+}
+
+button:hover {
+  background-color: #51cf66;
+  cursor: pointer;
+}
