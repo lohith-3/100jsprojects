@@ -48,7 +48,6 @@ button {
   border: 0;
   color: #fff;
   background-color: #1971c2;
-  margin-bottom: 1.5rem;
   font-family: inherit;
   font-weight: 600;
 }
@@ -60,4 +59,5 @@ button:hover {
 
 #age__value {
   text-align: center;
+  margin-top: 1rem;
 }
