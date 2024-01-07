@@ -24,11 +24,12 @@ nav h1 {
   letter-spacing: 1px;
 }
 .receipe__list {
-  max-width: 1200px;
+  width: 1200px;
   margin: 2rem auto;
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 1.5rem;
 }
 .receipe {
   display: flex;
@@ -48,7 +49,7 @@ nav h1 {
   border-bottom-left-radius: 5px;
 }
 .receipe h4 {
-  flex: 1 0 auto;
+  flex: 1 0 150px;
 }
 .receipe__instructions {
   display: flex;
@@ -59,26 +60,26 @@ nav h1 {
 .receipe__instructions p {
   text-align: justify;
 }
-.receipe button {
+.receipe a {
   /* Removing default styles */
   appearance: none;
   -webkit-appearance: none;
 
   /* styles */
   flex: 1 0 auto;
-  /* padding: 1rem 0.5rem; */
   padding: 8px 0;
   padding-left: 10px;
   padding-right: 4rem;
   border: 0;
-  /* border-radius: 5px; */
   outline: none;
   background-color: #364fc7;
   color: #fff;
+  font-size: 14px;
   font-family: inherit;
-  font-weight: 600;
+  font-weight: 500;
+  text-decoration: none;
 }
-.receipe button:hover {
+.receipe a:hover {
   cursor: pointer;
   background-color: #4263eb;
 }
